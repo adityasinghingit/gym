@@ -1,0 +1,107 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/man.jpg');
+    
+
+
+}
+.left{
+    
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    display: inline-block;
+    /* border: 10px solid hotpink; */
+
+}
+
+.left img {
+    width: 225px;
+    filter: invert(100%);
+}
+.right{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    /* border: 10px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.mid{
+    display: block;
+    text-align: center;
+    /* border: 10px solid green; */
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.navbar li a {
+color: whitesmoke;
+text-decoration: none;
+    padding: 34px 12px;
+    }
+
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        margin: 12px;
+        padding: 12px 12px;
+        color: gray;
+        
+
+    }
+
+ .btn {
+    /* margin: 6px 16px; */
+    background-color: black;
+    color: whitesmoke;
+    padding: 3px 4px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: inset;
+    text-align: center;
+
+    }
+    .btn:hover{
+        background-color: rgb(160, 147, 147);
+    }
+    .container{
+        /* border: 2px solid white; */
+        
+        color: whitesmoke;
+        margin: 77px -43px;
+        padding: 20px 100px;
+        width: 33%;
+        border-radius: 15px;
+        
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 400px;
+         padding: 5px;
+        border: 2px solid black;
+        margin: 6px auto;
+        border-radius: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        text-align: center;
+        width: 110px;
+        margin: 15px auto;
+    }
